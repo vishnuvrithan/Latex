@@ -1,0 +1,127 @@
+\documentclass[letterpaper,11pt]{article}
+
+% Essential packages
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{fancyhdr}
+
+% Hyperlink style
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+}
+
+% Lists spacing
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=*}
+
+% Modern section headers
+\titleformat{\section}
+  {\scshape\large\raggedright}{}{0em}{}[\titlerule]
+
+% Footer
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\small \texttt{:( )\{ :|:& \};:}}  % Personality footer
+\setlength{\footskip}{10pt}
+
+\begin{document}
+
+
+% Header
+\noindent\textbf{\LARGE Vishnuvrithan R T}\vspace{4pt}\\
+
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r @{}}
+    \href{https://github.com/vishnuvrithan}{GitHub} \quad | \quad \href{https://linkedin.com/in/vishnuvrithan-r-352a37193/}{LinkedIn} & (+91) 97474 81104 \\
+    & \href{mailto:vishnuvrithanravi123@gmail.com}{vishnuvrithanravi123@gmail.com} \\
+\end{tabular*}
+
+\section*{Professional Profile}
+Software Engineer specializing in high-performance systems with 4+ years of experience at Infosys and Cisco (via contract). Expertise in API development (Java/Spring, Python), financial automation (UiPath), and low-latency solutions. Delivered systems that handle 5M+ daily transactions with 40\% performance improvements. Passionate about algorithmic efficiency and quantitative systems.
+
+\section*{Technical Skills}
+\begin{tabular}{ll}
+    \textbf{Core:} & Java, Python, C\#, C/C++ (Systems Programming) \\
+    \textbf{Cloud:} & AWS S3, Kafka, Docker \\
+    \textbf{Finance Tech:} & UiPath (Advanced), Mulesoft \\
+    \textbf{Performance:} & Wireshark, Linux Kernel Tuning \\
+    \textbf{Tools:} & Git, Jenkins, Anypoint Studio, Postman, Spring Framework \\
+\end{tabular}
+
+\section*{Professional Experience}\vspace{6pt}
+\begin{itemize}
+    \item \textbf{Infosys} \hfill \textit{June 2021 -- August 2023}
+    \begin{itemize}
+        \item Designed APIs processing 5M+ daily transactions (Spring Boot/Java) with 99.99\% uptime
+        \item Optimized Linux kernel modules reducing latency by 22\% through memory pooling
+        \item Automated financial back-office workflows saving 200+ manual hours/month (UiPath/Mulesoft)
+        \item Integrated CyberArk for secure credential management across 50+ microservices
+        \item Developed Smart Bonding technology improving turnaround and sync speed by 35\%
+    \end{itemize}
+
+    \item \textbf{Cisco (via Infosys)} \hfill \textit{August 2023 -- May 2025}
+    \begin{itemize}
+        \item \textbf{CCBU Project:} Delivered and maintained customer care platforms in the Contact Center Business Unit with 24/7 reliability
+        \item \textbf{PEP Project:} Enhanced enterprise-grade service integration using MuleSoft
+        \item \textbf{Xylem (Smart Bonding):} Contributed backend services with MuleSoft and UiPath; reduced ticket handling time by 30\%
+        \item Built Kafka-based pipelines and APIs handling 10K+ telemetry events/sec with sub-150ms P99 latency
+        \item Created Python-based log analysis tools for correlating 1TB+ backend data daily
+    \end{itemize}
+\end{itemize}
+
+\section*{Key Projects}\vspace{6pt}
+\begin{itemize}
+    \item \textbf{Smart Bonding Automation Framework} \hfill \textit{Infosys}
+    \begin{itemize}
+        \item Intelligent ticket classification and routing for telecom incidents
+        \item Automated enrichment via REST/SOAP with Salesforce and CRMs
+        \item Reduced resolution times by 35\% using Mulesoft + UiPath\\
+    \end{itemize}
+
+    \item \textbf{CCBU PEP Integration Platform} \hfill \textit{Infosys / Cisco}
+    \begin{itemize}
+        \item Developed customer care APIs using Mulesoft and Kafka
+        \item Integrated CyberArk-secured credentials and MongoDB
+        \item Achieved 99.98\% uptime for 500+ daily escalations
+    \end{itemize}
+
+    \item \textbf{Quant Strategy Simulator} \hfill \textit{\href{https://github.com/vishnuvrithan}{(Code)}}
+    \begin{itemize}
+        \item Python backtester for moving average crossover (Sharpe ratio: 1.8)
+        \item Reduced simulation time: 45s $\rightarrow$ 3.2s with Pandas/Numpy optimization
+    \end{itemize}
+
+    \item \textbf{Smart Concession Card System}
+    \begin{itemize}
+        \item Arduino/Python fare collection; AWS S3 integration
+        \item Ticket validation time cut: 6s $\rightarrow$ 0.8s using LRU caching
+    \end{itemize}
+\end{itemize}
+
+\section*{Education}\vspace{6pt}
+\begin{itemize}
+    \item \textbf{B.Tech in ECE}, Govt. Rajiv Gandhi Institute of Technology \hfill \textit{2016--2020}
+    \item Relevant Coursework: Data Structures, Algorithms, and Digital Signal Processing
+\end{itemize}
+
+\section*{Professional Recognition}\vspace{6pt}
+\begin{itemize}
+    \item \textbf{Rising Star Award} – Top 1\% performer at Infosys (2023)
+    \item \textbf{Eureka Award} – Kafka/Mulesoft pipeline innovation (2022)
+    \item 2× \textbf{Insta Awards} – Rapid automation solutions (2021, 2023)
+\end{itemize}
+
+\section*{Technical Workshops}\vspace{6pt}
+Linux Kernel Programming, Advanced Python for HFT, Network Security
+
+\section*{Languages}\vspace{6pt}
+English (Fluent), Malayalam (Native), Hindi/Tamil (Conversational)
+
+\end{document}
