@@ -1,0 +1,15 @@
+
+---
+
+## 🛠️ Requirements
+
+To compile the LaTeX file:
+
+- Install a LaTeX distribution:
+  - [TeX Live (Linux/Windows)](https://www.tug.org/texlive/)
+  - [MacTeX (macOS)](https://tug.org/mactex/)
+  - [Overleaf](https://overleaf.com) (online editor — no install needed)
+
+- Compile with:
+```bash
+pdflatex resume.tex
